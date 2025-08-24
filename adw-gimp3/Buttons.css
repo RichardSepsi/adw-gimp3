@@ -76,11 +76,11 @@ spinbutton button {
 GimpDock box box notebook stack widget>box>box>button {
     min-height: 24px;
     min-width: 24px;
-    margin: 0 0 0 2px;
+    margin: 0px 2px 0px 0px;
 }
 
 GimpDock box box notebook stack widget>box>box {
-    padding: 6px
+    padding: 0px 6px 6px 6px;
 }
 
 link,
@@ -106,8 +106,8 @@ button.link:focus {
 }
 
 tabs {
-    margin: 6px
- }
+    margin: 6px;
+}
 
 tabs tab {
     border-radius: 9px;
@@ -132,7 +132,8 @@ tabs arrow {
 tabs+button.flat {
     min-width: 1px;
     min-height: 1px;
-    margin: 7px;
+    margin-top: 7px;
+    margin-right: 7px;
     border-radius: 100%;
 }
 

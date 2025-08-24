@@ -1,0 +1,20 @@
+GimpDisplayShell{
+  border-top: 1px solid rgb(56, 58, 58);
+}
+
+GimpDisplayShell statusbar{
+  padding-bottom: 12px;
+  padding-top: 6px;
+}
+GimpDisplayShell statusbar>box>combobox{
+  margin-right: 6px;
+}
+GimpDisplayShell statusbar>box>label{
+  margin-left: 2px;
+}
+GimpDeviceStatus{
+  padding: 4px 10px 10px 10px;
+}
+GimpDeviceStatus box>widget>box{
+  padding: 8px;
+}

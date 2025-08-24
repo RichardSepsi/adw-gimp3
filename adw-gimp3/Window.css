@@ -1,4 +1,4 @@
-
+/*
 window:not(.csd):not(.maximized):not(.tiled-left):not(.tiled-bottom):not(.tiled-right):not(.tiled-top):not(.tiled),
 *:not(.maximized):not(.tiled-left):not(.tiled-bottom):not(.tiled-right):not(.tiled-top):not(.tiled) decoration {
 	border-radius: 15px;
@@ -22,7 +22,7 @@ window:not(.maximized):not(.tiled-left):not(.tiled-bottom):not(.tiled-right):not
 
 window:not(.maximized):not(.tiled-left):not(.tiled-bottom):not(.tiled-right):not(.tiled-top):not(.tiled) #gimp-internal-dock-2 stack {
 	border-radius: 0 0 15px 0;
-}
+}*/
 
 headerbar {
 	background: none;
@@ -32,15 +32,68 @@ headerbar {
 
 menubar {
 	min-height: 12px;
-	padding: 6px 0;
+	padding: 6px 0px 0px 4px;
 }
 
 menubar>menuitem {
 	min-height: 26px;
 	border-radius: 9px;
 	transition: all 300ms ease;
+	margin-right: 6px;
+	margin-bottom: 6px;
 }
 
 menubar>menuitem:hover {
-	background-color: rgba(222, 226, 223, 0.1);
+	background-color: rgba(222, 226, 223, 0.2);
+}
+
+window headerbar>menubar {
+  padding-left: 0px;
+}
+window box>box>paned>box{
+  padding: 0px 6px;
+  padding-left: 6px;
+  padding-right: 3px;
+  padding-top: 6px;
+}
+
+/*window>box>box>paned>notebook>header{
+  padding: 0;
+  margin: 0;
+}*/
+window>box>box>paned>paned>notebook>header>tabs {
+  /*padding: 0;*/
+  margin: 0;
+}
+window>box>box>paned>paned>notebook>header>tabs>tab {
+  border-radius: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+window>box>box>paned>paned>notebook>header>tabs>tab>box>widget {
+  border-radius: 4px;
+}
+
+GimpDock>box>box>toolpalette>toolitemgroup>toolbutton>button{
+  margin-top: 7px;
+}
+
+GimpDisplayShell grid{
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+}
+
+GimpDisplayShell>grid>button{
+  padding-left: 0px;
+}
+
+GimpDisplayShell grid > button {
+  min-height: 0;
+  min-width: 0;
+  padding: 0 0 0 0;
+}
+
+GimpRuler{
+  color: #cccccc;
 }

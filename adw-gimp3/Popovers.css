@@ -1,12 +1,18 @@
+window.popup.csd decoration{
+    margin-bottom: 6px;
+}
+
 window.popup.csd decoration,
 window.popup.csd menu {
-    border-radius: 15px
+    border-radius: 15px;
 }
 
 window.popup.csd menu menuitem {
-    min-height: 20px;
+    min-height: 22px;
     border-radius: 10px;
-    padding-left: 0;
+    padding-left: 7px;
+    padding-right: 10px;
+    margin: 1px 0;
 }
 
 window.popup.csd menu separator {

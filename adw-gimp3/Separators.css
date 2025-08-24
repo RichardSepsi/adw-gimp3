@@ -6,7 +6,22 @@
 	border-bottom: 1px solid  rgb(56, 58, 58);
 } */
 
-paned>separator {
+separator{
+  box-shadow: none;
+	min-width: 1px;
+	min-height: 1px;
+	background: none;
+	background-color:  rgb(56, 58, 58);
+	outline: none;
+}
+
+/*separator.wide {
+	padding: 3px;
+	background-color: transparent;
+	border: 1px solid rgb(56, 58, 58);
+}*/
+
+/*paned>separator {
 	box-shadow: none;
 	min-width: 1px;
 	min-height: 1px;
@@ -18,12 +33,26 @@ paned>separator {
 separator.wide {
 	padding: 3px;
 	background-color: transparent;
-}
+}*/
 
-box+separator {
-	border-left: 1px solid rgb(56, 58, 58);
-}
-
-notebook+separator {
+box+separator.wide {
+	background-color: transparent;
 	border-right: 1px solid rgb(56, 58, 58);
+	padding: 0 3px;
+}
+
+notebook+separator.wide {
+	background-color: transparent;
+	border-right: 1px solid rgb(56, 58, 58);
+	padding: 0 3px;
+}
+
+GimpDock notebook+separator.wide{
+  box-shadow: none;
+  padding: 0;
+	min-width: 1px;
+	min-height: 1px;
+	background: none;
+	background-color:  rgb(56, 58, 58);
+	outline: none;
 }

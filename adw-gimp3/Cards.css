@@ -1,20 +1,111 @@
+
+
+GimpDock{
+    margin: 0px 0px;
+}
+GimpDock stack>widget>box>box>box{
+    margin-bottom: 6px;
+    min-height: 40px;
+    margin-left: -6px;
+}
+GimpDock stack>widget>box>box>box>combobox>box{
+    margin-left: 6px;
+}
+GimpDock stack>widget>box>box>box>combobox>box>button>box{
+    padding: 0 4px;
+}
+
+GimpDock stack>widget>box{
+    margin: 0 6px;
+}
+
 GimpDock stack>widget>box>scrolledwindow,
 GimpDock stack>widget>box>label {
+    margin: 0 6px;
+}
 
-    margin: 0 12px;
+GimpDock box>box>paned>notebook>header {
+    padding: 6px 6px 1px 6px;
+}
+GimpDock box>box>paned>notebook>header>tabs {
+    margin-bottom: 0px;
+}
+GimpDock box>box>paned>notebook>header>tabs>tab {
+    margin-right: 7px;
+}
+GimpDock box>box>paned>notebook>header>button {
+    margin-bottom: 0px;
+    margin-right: 8px;
+}
+
+GimpDock box>box>paned>notebook>stack {
+    margin-bottom: 4px;
+}
+GimpDock box>box>paned>paned>notebook>stack {
+    margin-bottom: 8px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>button {
+    margin-left: 0;
+}
+GimpDock>box>box>paned>paned>notebook>stack>widget>box>box {
+    margin-top: 0px;
+    padding-top: 6px;
+}
+GimpDock>box>box>paned>notebook>stack>widget>box>box {
+    margin-top: 0px;
+    padding-top: 6px;
+}
+GimpDock box>box>paned>paned>notebook>header {
+    padding: 6px 6px 6px 6px;
+}
+
+GimpDock box>box>paned>paned>notebook>header>tabs {
+    margin-bottom: 0px;
+}
+GimpDock box>box>paned>paned>notebook>header>tabs>tab {
+    margin-right: 7px;
+}
+GimpDock box>box>paned>paned>notebook>header>button {
+    /*padding: 0px 0 ;*/
+    margin-bottom: 0;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>box {
+    margin-left: 0;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>box>button {
+    margin-right: 2px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>label {
+    margin-left: 16px;
+    margin-top: 8px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box>label {
+    margin-left: 16px;
+    margin-top: 8px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box {
+    margin-top: 6px;
 }
 
 
+
 scrolledwindow {
-    background: @card_bg_color;
+    background: transparent;
     border-radius: 12px;
     /* min-height: 128px; */
+    background-clip: border-box;
 }
 
 viewport,
 viewport list {
     border-radius: 2px;
     background-color: transparent;
+}
+
+scrolledwindow.frame treeview{
+    padding: 4px;
 }
 
 scrolledwindow viewport>box {
@@ -28,6 +119,7 @@ scrolledwindow.frame treeview {
 scrolledwindow treeview,
 scrolledwindow treeview header button {
     background-color: transparent;
+    margin: 4px;
 }
 
 iconview:hover,
