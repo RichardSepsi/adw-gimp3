@@ -25,7 +25,10 @@ GimpDock stack>widget>box>label {
 }
 
 GimpDock box>box>paned>notebook>header {
-    padding: 6px 6px 1px 6px;
+    padding: 6px 8px 0px 8px;
+}
+GimpDock>box>box>paned>paned>notebook>header {
+    padding: 6px 8px 0px 8px;
 }
 GimpDock box>box>paned>notebook>header>tabs {
     margin-bottom: 0px;
@@ -47,17 +50,17 @@ GimpDock box>box>paned>paned>notebook>stack {
 GimpDock box>box>paned>paned>notebook>stack>widget>box>button {
     margin-left: 0;
 }
-GimpDock>box>box>paned>paned>notebook>stack>widget>box>box {
+GimpDock>box>box>paned>paned>notebook>stack>widget>box {
     margin-top: 0px;
     padding-top: 6px;
 }
-GimpDock>box>box>paned>notebook>stack>widget>box>box {
+GimpDock>box>box>paned>notebook>stack>widget>box {
     margin-top: 0px;
     padding-top: 6px;
 }
-GimpDock box>box>paned>paned>notebook>header {
+/*GimpDock box>box>paned>paned>notebook>header {
     padding: 6px 6px 6px 6px;
-}
+}*/
 
 GimpDock box>box>paned>paned>notebook>header>tabs {
     margin-bottom: 0px;
@@ -86,6 +89,12 @@ GimpDock box>box>paned>notebook>stack>widget>box>label {
     margin-top: 8px;
 }
 GimpDock box>box>paned>notebook>stack>widget>box {
+    margin-top: 0px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box>box>button {
+    margin-top: 6px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>button {
     margin-top: 6px;
 }
 
