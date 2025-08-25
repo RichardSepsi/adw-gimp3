@@ -1,13 +1,10 @@
 # Adwaita Theme for GIMP 3: adw-gimp3
 
-A complementary theme to `adw-gtk3` for perfect GIMP styling. I made this fork to attempt to create a more polished version of the original.
+A complementary theme to `adw-gtk3` for perfect GIMP styling. I made this fork to attempt to create a more polished version of the original. Theme is based on https://github.com/dp0sk/adw-gimp3/tree/main. 
 
-> [!NOTE]
-> Currently, only dark theme is officially supported
-
-<img width="1698" height="1070" alt="Screenshot From 2025-08-25 00-50-45" src="https://github.com/user-attachments/assets/5af8d4e5-83a4-4eac-ab24-bb20fff69aba" />
-<img width="1920" height="1027" alt="Screenshot From 2025-08-25 00-44-55" src="https://github.com/user-attachments/assets/9345e2e6-d024-4867-a54d-476dd29ddd3b" />
-
+<img width="3539" height="988" alt="1" src="https://github.com/user-attachments/assets/5cc9549a-965d-4c3f-b523-ecdfdfbff828" />
+<img width="1920" height="1027" alt="Screenshot From 2025-08-25 16-36-31" src="https://github.com/user-attachments/assets/c8e8a679-0304-46eb-b0dc-2c68811b6d88" />
+<img width="1920" height="1027" alt="Screenshot From 2025-08-25 16-33-20" src="https://github.com/user-attachments/assets/c20b5f93-3e1e-47b5-8af9-ca6b3fc1735e" />
 
 
 ## Installation
