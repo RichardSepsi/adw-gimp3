@@ -13,7 +13,7 @@ GimpDisplayShell statusbar>box>label{
   margin-left: 2px;
 }
 GimpDeviceStatus{
-  padding: 4px 10px 10px 10px;
+  padding: 4px 12px 3px 12px;
 }
 GimpDeviceStatus box>widget>box{
   padding: 8px;
