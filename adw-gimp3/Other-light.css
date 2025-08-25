@@ -30,3 +30,10 @@ GimpPrefsBox>box>stack>box>scrolledwindow>viewport>box>frame>box>scrolledwindow>
   padding: 8px;
   margin-bottom: 6px;
 }
+
+checkbutton>check {
+  margin-right: 8px;
+}
+radiobutton>radio{
+  margin-right: 8px;
+}

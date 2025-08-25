@@ -9,6 +9,20 @@ GimpColorScales+box+box>button {
 	min-width: 24px;
 	padding: 0;
 }
+GimpColorScales>box {
+	margin-right: -6px;
+	margin-bottom: 4px;
+}
+GimpColorScales>box>button {
+	margin-right: 6px;
+}
+GimpColorScales>grid>grid {
+	margin-bottom: 8px;
+}
+GimpColorScales>grid>radiobutton {
+	margin-bottom: 8px;
+	margin-left: 6px;
+}
 
 GimpColorHistory button {
 	min-height: 24px;
@@ -30,16 +44,20 @@ GimpColorNotebook notebook header {
 
 GimpColorNotebook notebook header {
 	padding: 2px;
-	border-radius: 12px 12px 0 0;
+	border-radius: 18px 18px 0 0;
 }
 
 GimpColorNotebook notebook stack {
-	padding: 6px 12px 12px 12px;
-	border-radius: 0 0 12px 12px;
+	padding: 4px 12px 12px 12px;
+	border-radius: 0 0 18px 18px;
 }
 
 ColorselWheel widget {
 	outline: none
+}
+
+GimpColorSelection{
+  margin-left: -6px;
 }
 
 GimpColorSelection scrolledwindow {
@@ -47,9 +65,39 @@ GimpColorSelection scrolledwindow {
 	background-color: transparent;
 	min-height: 1rem;
 }
+GimpColorSelection>box>box>box {
+	margin-top: 6px;
+}
+GimpColorSelection>box>box {
+	margin-left: 6px;
+}
 
+GimpColorNotebook tabs {
+	margin-top: 10px;
+}
 GimpColorNotebook tabs tab {
 	min-height: 24px;
 	margin-right: 0;
-	margin-left: 2px;
+	margin-left: 6px;
+}
+
+ColorselCmyk{
+  margin: 0 6px;
+}
+GimpColorSelect>grid>label{
+  margin-top: 10px;
+}
+ColorselWater>label{
+  margin-top: 10px;
+}
+ColorselWheel>label{
+  margin-top: 10px;
+}
+GimpColorSelectorPalette>label{
+  margin-top: 6px;
+}
+GimpColorHistory>button {
+	margin-left: 3px;
+	margin-bottom: 3px;
+	padding: 4px;
 }
