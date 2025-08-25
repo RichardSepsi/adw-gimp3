@@ -1,0 +1,327 @@
+
+
+GimpDock{
+    margin: 0px 0px;
+}
+GimpDock stack>widget>box>box>box>combobox>box>button>box{
+    padding: 0 4px;
+}
+
+GimpDock stack>widget>box{
+    margin: 0 6px;
+}
+
+GimpDock stack>widget>box>scrolledwindow,
+GimpDock stack>widget>box>label {
+    margin: 0 6px;
+}
+
+
+
+GimpDock box>box>paned>notebook {
+    margin-bottom: 6px;
+}
+GimpDock box>box>paned>notebook>header {
+    padding: 6px 7px 0px 7px;
+    margin-bottom: -2px;
+    outline: 0;
+}
+GimpDock box>box>paned>notebook>header>button {
+    margin-bottom: 0px;
+    margin-right: 8px;
+}
+GimpDock box>box>paned>notebook>header>tabs {
+    margin-bottom: 0px;
+}
+GimpDock box>box>paned>notebook>header>tabs>tab {
+    margin-right: 6px;
+}
+
+GimpDock box>box>paned>notebook>stack {
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+GimpDock box>box>paned>notebook>stack>widget {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box {
+    margin-top: 3px;
+    padding-top: 0px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box>label {
+    margin-left: 16px;
+    margin-top: 8px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box>box {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box>box>frame {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box>box>entry {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 0px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box>box>button {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box>box>scrolledwindow {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box>scrolledwindow>viewport>box>box>frame>box>radiobutton {
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box>scrolledwindow>viewport>box>box>box>box {
+    margin-bottom: 3px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box>scrolledwindow>viewport>box>box>box>box>button {
+    margin-left: 6px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box>scrolledwindow {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box>box>GimpSpinScale {
+    margin-left: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box>box>box {
+    margin-left: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box>box>box{
+    margin-bottom: 3px;
+    min-height: 40px;
+    margin-left: -6px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box>box>box>button{
+    margin-left: 6px;
+}
+GimpDock box>box>paned>notebook>stack>widget>box>box>box>combobox>box{
+    margin-left: 6px;
+}
+
+
+
+GimpDock box>box>paned>paned>notebook {
+    margin-bottom: 6px;
+}
+GimpDock box>box>paned>paned>notebook>header {
+    padding: 6px 7px 0px 7px;
+    margin-bottom: -2px;
+    outline: 0;
+}
+GimpDock box>box>paned>paned>notebook>header>button {
+    margin-bottom: 0px;
+    margin-right: 8px;
+}
+GimpDock box>box>paned>paned>notebook>header>tabs {
+    margin-bottom: 0px;
+}
+GimpDock box>box>paned>paned>notebook>header>tabs>tab {
+    margin-right: 6px;
+}
+
+GimpDock box>box>paned>paned>notebook>stack {
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box {
+    margin-top: 3px;
+    padding-top: 0px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>label {
+    margin-left: 16px;
+    margin-top: 8px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>frame {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>entry {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 0px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>button {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>scrolledwindow {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>scrolledwindow>viewport>box>box>frame>box>radiobutton {
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>scrolledwindow>viewport>box>box>box {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-right: -2px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>scrolledwindow>viewport>box>box>box>combobox {
+    margin-right: 2px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>scrolledwindow>viewport>box>box>box>checkbutton {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>scrolledwindow>viewport>box>box>frame>box>frame {
+    margin-top: 10px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>scrolledwindow>viewport>box>box>frame {
+    margin-top: 10px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>scrolledwindow>viewport>box>box>GimpSpinScale {
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>scrolledwindow>viewport>box>box>box>box {
+    margin-bottom: 3px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>scrolledwindow>viewport>box>box>box>box>button {
+    margin-left: 6px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>scrolledwindow {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>GimpSpinScale {
+    margin-left: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>box {
+    margin-left: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>box{
+    margin-bottom: 3px;
+    min-height: 40px;
+    margin-left: -6px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>box>button{
+    margin-left: 6px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>box>combobox>box{
+    margin-left: 6px;
+}
+
+
+
+/*GimpDock>box>box>paned>paned>notebook>header {
+    padding: 6px 7px 0px 7px;
+}
+GimpDock box>box>paned>paned>notebook>stack {
+    margin-bottom: 8px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>button {
+    margin-left: 0;
+}
+GimpDock>box>box>paned>paned>notebook>stack>widget>box {
+    margin-top: 0px;
+    padding-top: 6px;
+}
+
+GimpDock box>box>paned>paned>notebook>header>tabs {
+    margin-bottom: 0px;
+}
+GimpDock box>box>paned>paned>notebook>header>tabs>tab {
+    margin-right: 6px;
+}
+GimpDock box>box>paned>paned>notebook>header>button {
+    padding: 0px 0 ;
+    margin-bottom: 0;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>box {
+    margin-left: 0;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>box>button {
+    margin-right: 2px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>label {
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+
+
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>button {
+    margin-top: 6px;
+}
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>scrolledwindow {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}*/
+
+
+
+
+scrolledwindow {
+    background: transparent;
+    border-radius: 12px;
+    /* min-height: 128px; */
+    background-clip: border-box;
+}
+
+viewport,
+viewport list {
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+scrolledwindow.frame treeview{
+    padding: 4px;
+}
+
+scrolledwindow viewport>box {
+    padding: 12px;
+}
+
+scrolledwindow.frame treeview {
+    transition: all 300ms ease;
+}
+
+scrolledwindow treeview,
+scrolledwindow treeview header button {
+    background-color: transparent;
+    margin: 4px;
+}
+
+iconview:hover,
+scrolledwindow.frame treeview:hover,
+scrolledwindow.frame treeview:selected:hover
+{
+    background-color: mix(#323233, #fafafb,0.75);
+}
+scrolledwindow.frame treeview:selected,
+scrolledwindow treeview header button:focus {
+    background-color: mix(#323233, #fafafb,0.85);
+}

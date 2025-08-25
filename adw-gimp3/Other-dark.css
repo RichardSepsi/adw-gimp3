@@ -1,0 +1,32 @@
+GimpDisplayShell{
+  border-top: 1px solid rgb(56, 58, 58);
+}
+
+GimpDisplayShell statusbar{
+  padding-bottom: 12px;
+  padding-top: 6px;
+}
+GimpDisplayShell statusbar>box>combobox{
+  margin-right: 6px;
+}
+GimpDisplayShell statusbar>box>label{
+  margin-left: 2px;
+}
+GimpDeviceStatus{
+  padding: 4px 12px 3px 12px;
+}
+GimpDeviceStatus box>widget>box{
+  padding: 8px;
+}
+
+GimpPrefsBox>box>widget>box {
+  padding: 6px;
+  padding-left: 22px;
+}
+GimpPrefsBox>box>stack>box>scrolledwindow>viewport>box>frame>box>scrolledwindow {
+  min-height: 180px;
+}
+GimpPrefsBox>box>stack>box>scrolledwindow>viewport>box>frame>box>scrolledwindow>viewport>list>row {
+  padding: 8px;
+  margin-bottom: 6px;
+}

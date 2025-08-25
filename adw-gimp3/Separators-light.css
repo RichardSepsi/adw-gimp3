@@ -1,0 +1,58 @@
+/* #gimp-internal-dock-1 notebook:first-child {
+	border-top: 1px solid  rgb(56, 58, 58);
+}
+
+#gimp-internal-dock-2 notebook:first-child {
+	border-bottom: 1px solid  rgb(56, 58, 58);
+} */
+
+separator{
+  box-shadow: none;
+	min-width: 1px;
+	min-height: 1px;
+	background: none;
+	background-color: rgb(220,220,223);
+	outline: none;
+}
+
+/*separator.wide {
+	padding: 3px;
+	background-color: transparent;
+	border: 1px solid rgb(56, 58, 58);
+}*/
+
+/*paned>separator {
+	box-shadow: none;
+	min-width: 1px;
+	min-height: 1px;
+	background: none;
+	background-color:  rgb(56, 58, 58);
+	outline: none;
+}
+
+separator.wide {
+	padding: 3px;
+	background-color: transparent;
+}*/
+
+box+separator.wide {
+	background-color: transparent;
+	border-right: 1px solid rgb(220,220,223);
+	padding: 0 3px;
+}
+
+notebook+separator.wide {
+	background-color: transparent;
+	border-right: 1px solid rgb(220,220,223);
+	padding: 0 3px;
+}
+
+GimpDock notebook+separator.wide{
+  box-shadow: none;
+  padding: 0;
+	min-width: 1px;
+	min-height: 1px;
+	background: none;
+	background-color: rgb(220,220,223);
+	outline: none;
+}
