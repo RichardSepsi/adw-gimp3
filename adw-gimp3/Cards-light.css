@@ -309,6 +309,16 @@ scrolledwindow.frame treeview {
     transition: all 300ms ease;
 }
 
+GimpDock scrolledwindow{
+  background: rgba(234,235,236,255);
+}
+GimpPrefsBox>scrolledwindow {
+  background: rgba(234,235,236,255);
+}
+GimpPrefsBox>box>stack>box>scrolledwindow>viewport scrolledwindow {
+  background: rgba(234,235,236,255);
+}
+
 scrolledwindow treeview,
 scrolledwindow treeview header button {
     background-color: transparent;
