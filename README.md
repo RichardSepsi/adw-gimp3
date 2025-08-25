@@ -2,9 +2,9 @@
 
 A complementary theme to `adw-gtk3` for perfect GIMP styling. I made this fork to attempt to create a more polished version of the original. Theme is based on https://github.com/dp0sk/adw-gimp3/tree/main. 
 
-<img width="3539" height="988" alt="1" src="https://github.com/user-attachments/assets/5cc9549a-965d-4c3f-b523-ecdfdfbff828" />
-<img width="2098" height="1205" alt="Screenshot" src="https://github.com/user-attachments/assets/ab02d40a-95d1-44e2-bacf-efe94106086f" />
-<img width="2098" height="1205" alt="Screenshot2" src="https://github.com/user-attachments/assets/52f963c8-6775-47d9-8557-217072d8e06f" />
+<img width="3273" height="992" alt="ScreenshotFrom2025-08-25_22-48-53" src="https://github.com/user-attachments/assets/23d14b2f-ecc2-4052-bd31-a08aec28a320" />
+<img width="2098" height="1205" alt="Screenshot" src="https://github.com/user-attachments/assets/be036b26-e1aa-4486-9df4-d37ef35783b7" />
+<img width="2098" height="1205" alt="Screenshot2" src="https://github.com/user-attachments/assets/8e9e1a4f-cc9f-4ea1-97c8-eb02894d26bd" />
 
 ## Installation
 
