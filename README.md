@@ -1,11 +1,11 @@
 # Adwaita Theme for GIMP 3: adw-gimp3
 
 A complementary theme to `adw-gtk3` for perfect GIMP styling. I made this fork to attempt to create a more polished version of the original. Theme is based on https://github.com/dp0sk/adw-gimp3/tree/main.
-Tested with GIMP 3.0.4 on Fedora Linux 42 with Gnome 48. Theme currently doesn't work properly on Windows.
+Tested with GIMP 3.0.4 on Fedora Linux 42 with Gnome 48. Theme currently doesn't work properly on Windows ([Current state](https://raw.githubusercontent.com/RichardSepsi/adw-gimp3/refs/heads/main/previews/Windows.png)). 
 
-<img width="3273" height="992" alt="ScreenshotFrom2025-08-25_22-48-53" src="https://github.com/user-attachments/assets/23d14b2f-ecc2-4052-bd31-a08aec28a320" />
-<img width="2098" height="1205" alt="Screenshot" src="https://github.com/user-attachments/assets/be036b26-e1aa-4486-9df4-d37ef35783b7" />
-<img width="2098" height="1205" alt="Screenshot2" src="https://github.com/user-attachments/assets/8e9e1a4f-cc9f-4ea1-97c8-eb02894d26bd" />
+<img width="3273" height="992" alt="Base" src="https://raw.githubusercontent.com/RichardSepsi/adw-gimp3/refs/heads/main/previews/Base.png" />
+<img width="2098" height="1205" alt="Dark" src="https://raw.githubusercontent.com/RichardSepsi/adw-gimp3/refs/heads/main/previews/Dark.png" />
+<img width="2098" height="1205" alt="Light" src="https://raw.githubusercontent.com/RichardSepsi/adw-gimp3/refs/heads/main/previews/Light.png" />
 
 ## Installation
 
