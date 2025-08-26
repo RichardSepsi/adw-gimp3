@@ -4,16 +4,19 @@ set -e
 
 APP="adw-gimp3"
 REPO="https://github.com/RichardSepsi/adw-gimp3"
-DIR=$PWD
-INSTALL_PATH="$HOME/.config/GIMP/3.0/themes/"
+CLONE_DIR="$PWD/$APP"
 
 echo "Installing ${APP}..."
 sleep 0.5
 
-git clone "$REPO"
-cd adw-gimp3
-cp -r adw-gimp3 $INSTALL_PATH
-cd $DIR
-rm -rf $APP
+git clone "$REPO" "$CLONE_DIR"
+
+for INSTALL_PATH in $HOME/.config/GIMP/3.*/themes/; do
+    [ -d "$INSTALL_PATH" ] || continue
+    echo "Installing to: $INSTALL_PATH"
+    cp -r "$CLONE_DIR/$APP" "$INSTALL_PATH"
+done
+
+rm -rf "$CLONE_DIR"
 
 echo "Installation complete!"
