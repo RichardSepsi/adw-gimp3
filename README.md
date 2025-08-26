@@ -1,6 +1,7 @@
 # Adwaita Theme for GIMP 3: adw-gimp3
 
-A complementary theme to `adw-gtk3` for perfect GIMP styling. I made this fork to attempt to create a more polished version of the original. Theme is based on https://github.com/dp0sk/adw-gimp3/tree/main. 
+A complementary theme to `adw-gtk3` for perfect GIMP styling. I made this fork to attempt to create a more polished version of the original. Theme is based on https://github.com/dp0sk/adw-gimp3/tree/main.
+Tested with GIMP 3.0.4 on Fedora Linux 42 with Gnome 48. Theme currently doesn't work properly on Windows.
 
 <img width="3273" height="992" alt="ScreenshotFrom2025-08-25_22-48-53" src="https://github.com/user-attachments/assets/23d14b2f-ecc2-4052-bd31-a08aec28a320" />
 <img width="2098" height="1205" alt="Screenshot" src="https://github.com/user-attachments/assets/be036b26-e1aa-4486-9df4-d37ef35783b7" />
@@ -11,9 +12,7 @@ A complementary theme to `adw-gtk3` for perfect GIMP styling. I made this fork t
 > [!NOTE]
 > This theme depends on [`adw-gtk3`](https://github.com/lassekongo83/adw-gtk3)
 
-### Manual Installation
-
-#### adw-gtk3
+### adw-gtk3
 
 1. Install the [adw-gtk3](https://github.com/lassekongo83/adw-gtk3) theme first.
 
@@ -23,8 +22,9 @@ A complementary theme to `adw-gtk3` for perfect GIMP styling. I made this fork t
   - [Refine](https://flathub.org/apps/page.tesk.Refine)
   - Run: `gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3'`
 
+### adw-gimp3
 
-#### adw-gimp3
+##### Installation with a script
 
 1. Install or update adw-gimp3 via the command below:
 
@@ -37,3 +37,19 @@ A complementary theme to `adw-gtk3` for perfect GIMP styling. I made this fork t
 5. *(Optional)* For better integration, navigate to: `Edit → Preferences → Image Windows`
 6. *(Optional)* Enable `"Merge menu and title bar"`
 7. Done!
+
+##### Manual Installation
+
+1. Download the `adw-gimp3` repository
+
+    ```
+    git clone https://github.com/RichardSepsi/adw-gimp3
+    ```
+
+2. Install the theme by moving/copying the adw-gimp3 folder from within the cloned directory to your GIMP config directory (/.config/GIMP/3.0/themes)
+3. Launch GIMP
+4. Navigate to `Edit → Preferences → Theme`
+5. Select the `adw-gimp3` theme.
+6. *(Optional)* For better integration, navigate to: `Edit → Preferences → Image Windows`
+7. *(Optional)* Enable `"Merge menu and title bar"`
+8. Done!
