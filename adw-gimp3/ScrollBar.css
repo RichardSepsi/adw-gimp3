@@ -3,7 +3,7 @@ scrollbar {
 }
 
 scrollbar:not(.overlay-indicator) {
-    margin: 3px;
+    margin: 2px;
 }
 
 /*scrollbar.vertical:not(.overlay-indicator) {

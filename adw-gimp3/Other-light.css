@@ -1,17 +1,7 @@
-GimpDisplayShell{
-  border-top: 1px solid rgb(220,220,223);
+popover{
+  padding: 12px;
 }
 
-GimpDisplayShell statusbar{
-  padding-bottom: 12px;
-  padding-top: 6px;
-}
-GimpDisplayShell statusbar>box>combobox{
-  margin-right: 6px;
-}
-GimpDisplayShell statusbar>box>label{
-  margin-left: 2px;
-}
 GimpDeviceStatus{
   padding: 4px 12px 3px 12px;
 }
@@ -34,6 +24,226 @@ GimpPrefsBox>box>stack>box>scrolledwindow>viewport>box>frame>box>scrolledwindow>
 checkbutton>check {
   margin-right: 8px;
 }
-radiobutton>radio{
+radiobutton {
   margin-right: 8px;
 }
+
+#gimp-color-tag-box{
+  margin-right: -6px;
+}
+
+
+
+GimpToolDialog>box>frame>border {
+  border: 0;
+  padding: 12px;
+}
+
+GimpToolDialog>box>box {
+  margin-bottom: 6px;
+}
+
+GimpToolDialog>box>box>scrolledwindow>viewport>box>box>box>box {
+  /*margin-bottom: -6px;*/
+}
+GimpToolDialog>box>box>scrolledwindow>viewport>box>box>box>box>GimpSpinScale {
+  margin-bottom: 6px;
+}
+GimpToolDialog>box>box>scrolledwindow>viewport>box>box>box>grid {
+  margin-bottom: 6px;
+}
+
+GimpToolDialog>box>box>scrolledwindow>viewport>box>box>combobox {
+  margin-bottom: 6px;
+}
+
+GimpToolDialog>box>box>box {
+  margin: 0 6px;
+}
+
+GimpToolDialog>box>box>scrolledwindow>viewport>box>box>frame{
+  margin-bottom: 8px;
+}
+GimpToolDialog>box>box>scrolledwindow>viewport>box>box>frame>box>grid {
+  margin-bottom: -2px;
+}
+GimpToolDialog>box>box>scrolledwindow>viewport>box>box>frame>box>grid>GimpSpinScale {
+  margin-bottom: 6px;
+}
+
+GimpToolDialog>box>box>GimpSpinScale{
+  margin: 0 6px;
+}
+GimpToolDialog>box>box>button{
+  margin: 0 6px;
+}
+
+GimpToolDialog>box>box>scrolledwindow>viewport>box>box>box>GimpSpinScale {
+  margin-bottom: 6px;
+}
+GimpToolDialog>box>box>scrolledwindow>viewport>box>box>box>button {
+  margin-bottom: 6px;
+}
+
+GimpToolDialog>box>box>scrolledwindow>viewport>box>box>GimpSpinScale {
+  margin-bottom: 6px;
+}
+
+GimpToolDialog>box>box>box>combobox>box>button {
+  margin-bottom: 8px;
+}
+GimpToolDialog>box>box>box>expander {
+  margin-bottom: 2px;
+}
+GimpToolDialog>box>box>box>expander>title {
+  margin-bottom: 4px;
+}
+GimpToolDialog>box>box>box>expander>frame>box>box {
+  margin-bottom: 5px;
+  margin-right: -3px;
+}
+GimpToolDialog>box>box>box>expander>frame>box>box>combobox {
+  margin-right: 3px;
+}
+GimpToolDialog>box>box>box>expander>frame>box>GimpSpinScale {
+  margin-bottom: 6px;
+}
+
+
+
+dialog>box>frame>border {
+  border: 0;
+  padding: 12px;
+}
+
+dialog>box>grid>combobox>box>button {
+  margin-bottom: 4px;
+}
+
+dialog>box>box>box>grid>grid {
+  margin-bottom: -6px;
+}
+dialog>box>box>box>grid>grid>spinbutton {
+  margin-bottom: 6px;
+}
+dialog>box>box>box>grid>grid>combobox {
+  margin-bottom: 6px;
+  margin-left: 6px;
+}
+
+dialog>box>box>box>box{
+  margin-right: 8px;
+}
+dialog>box>box>box>box>button{
+  margin-top: 6px;
+}
+
+dialog>box>box>frame>box>box>grid {
+  margin-bottom: -6px;
+}
+dialog>box>box>frame>box>box>grid>spinbutton {
+  margin-bottom: 6px;
+}
+dialog>box>box>frame>box>box>grid>combobox {
+  margin-bottom: 6px;
+  margin-left: 6px;
+}
+dialog>box>box>frame>box>box>grid>grid {
+  margin-bottom: 6px;
+}
+
+dialog>box>box>box>frame>grid>box>grid {
+  margin-bottom: -6px;
+}
+dialog>box>box>box>frame>grid>box>grid>spinbutton {
+  margin-bottom: 6px;
+}
+dialog>box>box>box>frame>grid>box>grid>combobox {
+  margin-bottom: 6px;
+  margin-left: 6px;
+}
+
+dialog>box>box>box>expander>frame>scrolledwindow>viewport>grid>box>grid {
+  margin-bottom: -6px;
+}
+dialog>box>box>box>expander>frame>scrolledwindow>viewport>grid>box>grid>spinbutton {
+  margin-bottom: 6px;
+}
+dialog>box>box>box>expander>frame>scrolledwindow>viewport>grid>box>grid>combobox {
+  margin-bottom: 6px;
+}
+dialog>box>box>box>expander>frame>scrolledwindow>viewport>grid>box>grid>grid {
+  margin-bottom: 6px;
+}
+
+dialog>box>box>box>box>frame>box>box>grid {
+  margin-bottom: -6px;
+}
+dialog>box>box>box>box>frame>box>box>grid>spinbutton {
+  margin-bottom: 6px;
+}
+dialog>box>box>box>box>frame>box>box>grid>combobox {
+  margin-bottom: 6px;
+  margin-left: 6px;
+}
+dialog>box>box>box>box>frame>box>box>grid>grid {
+  margin-bottom: 6px;
+}
+
+dialog>box>box>box>box>frame>box>grid{
+  margin-bottom: -6px;
+}
+dialog>box>box>box>box>frame>box>grid>spinbutton {
+  margin-bottom: 6px;
+}
+dialog>box>box>box>box>frame>box>grid>combobox {
+  margin-bottom: 6px;
+  margin-left: 6px;
+}
+
+dialog>box>box>box>expander>frame>scrolledwindow>viewport>grid>scrolledwindow>textview {
+  padding: 10px;
+  border-radius: 12px;
+}
+dialog>box>box>box>expander>frame>scrolledwindow>viewport>grid>scrolledwindow>scrollbar {
+  border-radius: 12px;
+}
+
+dialog>box>box>box>expander>frame>scrolledwindow {
+  margin-bottom: 8px;
+}
+
+dialog>box>box>box>box>frame>box>box>grid>label {
+  margin-right: 8px;
+}
+dialog>box>box>box>box>frame>box>grid>label {
+  margin-right: 8px;
+}
+
+dialog>box>box>frame>box>box>grid>box>label {
+  margin-bottom: 12px;
+}
+
+dialog>box>box>box>grid>box>button {
+  margin-right: 6px;
+}
+
+dialog>box>notebook>header>tabs>tab {
+    padding: 8px 10px;
+}
+dialog>box>notebook>stack>box>scrolledwindow {
+    margin: 8px;
+}
+dialog>box>notebook>stack>box>scrolledwindow>textview {
+    padding: 8px;
+}
+dialog>box>notebook>stack>box>box>scrolledwindow {
+    margin: 8px;
+}
+dialog>box>notebook>stack>box>box>scrolledwindow>textview {
+    padding: 8px;
+}
+dialog>box>notebook>stack>box>box>button {
+    margin: 0 10px;
+}
+

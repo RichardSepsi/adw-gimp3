@@ -30,6 +30,10 @@ combobox button.combo {
     min-height: 34px;
     padding: 0 6px;
 }
+GimpDisplayShell combobox button.combo {
+    min-height: 24px;
+    padding: 0 6px;
+}
 
 combobox box.horizontal.linked button {
     border-radius: 9px;

@@ -36,20 +36,21 @@ GimpSpinScale button.down:hover {
 }
 
 GimpSpinScale button.down{
-  margin-left: 7px;
-  margin-right: 4.5px;
+  	margin-left: 7px;
+ 	margin-right: 4.5px;
 }
 GimpSpinScale button.up{
-  margin-left: 4.5px;
-  margin-right: 7px;
+ 	margin-left: 4.5px;
+  	margin-right: 7px;
 }
 
 GimpSpinScale+button.flat{
   min-width: 24px;
 	min-height: 24px;
 	padding: 3px;
-	margin: 0 3px;
-	margin-left: 6px;
+	/*margin: 0 3px;*/
+	margin-right: 3px;
+	margin-left: 3px;
 	border-radius: 100%;
 }
 GimpSpinScale+button.flat+button.flat.toggle {

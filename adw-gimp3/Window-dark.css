@@ -89,7 +89,7 @@ GimpDock>box>box>toolpalette>toolitemgroup>toolbutton>button{
 
 GimpDisplayShell grid{
   padding-left: 6px;
-  padding-right: 6px;
+  padding-right: 1px;
   padding-top: 6px;
 }
 
@@ -101,8 +101,37 @@ GimpDisplayShell grid > button {
   min-height: 0;
   min-width: 0;
   padding: 0 0 0 0;
-  margin: 3px;
+  margin: 2px;
 }
+
+GimpDisplayShell{
+  border-top: 1px solid rgb(56, 58, 58);
+}
+
+/*GimpDisplayShell>grid{
+  margin-right: -5px;
+}*/
+
+GimpDisplayShell statusbar{
+  padding-bottom: 12px;
+  padding-top: 5px;
+}
+GimpDisplayShell statusbar>box>combobox{
+  margin-right: 6px;
+}
+GimpDisplayShell statusbar>box>label{
+  margin-left: 2px;
+}
+GimpDisplayShell statusbar>box>combobox>box>button{
+  min-height: 0px;
+}
+GimpDisplayShell statusbar>box>combobox>box>entry{
+  min-height: 0px;
+}
+GimpDisplayShell statusbar>box>button{
+  min-height: 0px;
+}
+
 GimpRuler{
   color: #cccccc;
 }
