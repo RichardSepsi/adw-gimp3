@@ -26,17 +26,14 @@ A complementary theme to `adw-gtk3` for perfect GIMP styling. I made this fork t
 
 #### adw-gimp3
 
-1. Download the `adw-gimp3` repository
+1. Install or update adw-gimp3 via the command below:
 
     ```bash
-    git clone https://github.com/RichardSepsi/adw-gimp3
-    cd adw-gimp3
+    curl -s https://raw.githubusercontent.com/RichardSepsi/adw-gimp3/main/install.sh | bash
     ```
-
-2. Install the theme to your config directory (/.config/GIMP/3.0/themes)
-3. Launch GIMP
-4. Navigate to `Edit → Preferences → Theme`
-5. Select the `adw-gimp3` theme.
-6. *(Optional)* For better integration, navigate to: `Edit → Preferences → Image Windows`
-7. *(Optional)* Enable `"Merge menu and title bar"`
-8. Done!
+2. Launch GIMP
+3. Navigate to `Edit → Preferences → Theme`
+4. Select the `adw-gimp3` theme.
+5. *(Optional)* For better integration, navigate to: `Edit → Preferences → Image Windows`
+6. *(Optional)* Enable `"Merge menu and title bar"`
+7. Done!
