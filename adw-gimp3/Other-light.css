@@ -2,6 +2,8 @@ popover{
   padding: 12px;
 }
 
+
+
 GimpDeviceStatus{
   padding: 4px 12px 3px 12px;
 }
@@ -20,6 +22,41 @@ GimpPrefsBox>box>stack>box>scrolledwindow>viewport>box>frame>box>scrolledwindow>
   padding: 8px;
   margin-bottom: 6px;
 }
+
+GimpPrefsBox>box>stack>box>scrolledwindow>viewport>box>box>frame>grid>box>grid {
+  margin-bottom: -6px;
+}
+GimpPrefsBox>box>stack>box>scrolledwindow>viewport>box>box>frame>grid>box>grid>spinbutton {
+  margin-bottom: 6px;
+}
+GimpPrefsBox>box>stack>box>scrolledwindow>viewport>box>box>frame>grid>box>grid>combobox {
+  margin-bottom: 6px;
+  margin-left: 6px;
+}
+
+GimpPrefsBox>box>stack>box>scrolledwindow>viewport>box>box>expander>frame>scrolledwindow>viewport>grid>box>grid {
+  margin-bottom: -6px;
+}
+GimpPrefsBox>box>stack>box>scrolledwindow>viewport>box>box>expander>frame>scrolledwindow>viewport>grid>box>grid>grid {
+  margin-bottom: 6px;
+}
+GimpPrefsBox>box>stack>box>scrolledwindow>viewport>box>box>expander>frame>scrolledwindow>viewport>grid>box>grid>spinbutton {
+  margin-bottom: 6px;
+}
+GimpPrefsBox>box>stack>box>scrolledwindow>viewport>box>box>expander>frame>scrolledwindow>viewport>grid>box>grid>combobox {
+  margin-bottom: 6px;
+  margin-left: 6px;
+}
+
+GimpPrefsBox>box>stack>box>scrolledwindow>viewport>box>box>expander>frame>scrolledwindow>viewport>grid>scrolledwindow {
+  border-radius: 12px;
+}
+GimpPrefsBox>box>stack>box>scrolledwindow>viewport>box>box>expander>frame>scrolledwindow>viewport>grid>scrolledwindow>textview {
+  padding: 10px;
+  border-radius: 12px;
+}
+
+
 
 checkbutton>check {
   margin-right: 8px;

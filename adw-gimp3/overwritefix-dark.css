@@ -30,7 +30,7 @@ notebook > header tab.reorderable-page {
   padding-bottom: 2px;
 }*/
 notebook > header tab {
-  padding: 2px 8px;
+  padding: 2px 4px;
 }
 treeview.view header button {
   padding: 0px 6px;
