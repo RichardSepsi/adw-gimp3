@@ -1,15 +1,15 @@
 scrollbar {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 scrollbar:not(.overlay-indicator) {
-    margin: 2px;
+	margin: 2px;
 }
 
 /*scrollbar.vertical:not(.overlay-indicator) {
-    margin-left: -10px;
+	margin-left: -10px;
 }*/
 
 scrollbar+* {
-    background-color: transparent;
+	background-color: transparent;
 }

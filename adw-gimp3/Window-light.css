@@ -28,7 +28,7 @@ headerbar {
 	background: none;
 	background-color: @window_bg_color;
 	/*background-color: rgba(46,46,50,255);*/
-	border-bottom: 1px solid rgba(220,220,223,255);
+	border-bottom: 1px solid rgb(220,220,223);
 }
 
 menubar {
@@ -38,7 +38,7 @@ menubar {
 }
 
 window>headerbar {
-  min-height: 12px;
+	min-height: 12px;
 }
 
 menubar>menuitem {
@@ -57,81 +57,81 @@ menubar>menuitem:hover {
 }
 
 window headerbar>menubar {
-  padding-left: 0px;
+	padding-left: 0px;
 }
-window box>box>paned>box{
-  padding: 0px 6px;
-  padding-left: 6px;
-  padding-right: 3px;
-  padding-top: 6px;
+window box>box>paned>box {
+	padding: 0px 6px;
+	padding-left: 6px;
+	padding-right: 3px;
+	padding-top: 6px;
 }
 
-/*window>box>box>paned>notebook>header{
-  padding: 0;
-  margin: 0;
+/*window>box>box>paned>notebook>header {
+	padding: 0;
+	margin: 0;
 }*/
 window>box>box>paned>paned>notebook>header>tabs {
-  /*padding: 0;*/
-  margin: 0;
+	/*padding: 0;*/
+	margin: 0;
 }
 window>box>box>paned>paned>notebook>header>tabs>tab {
-  border-radius: 8px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+	border-radius: 8px;
+	padding-top: 6px;
+	padding-bottom: 6px;
 }
 window>box>box>paned>paned>notebook>header>tabs>tab>box>widget {
-  border-radius: 4px;
+	border-radius: 4px;
 }
 
-GimpDock>box>box>toolpalette>toolitemgroup>toolbutton>button{
-  margin-top: 7px;
+GimpDock>box>box>toolpalette>toolitemgroup>toolbutton>button {
+	margin-top: 7px;
 }
 
-GimpDisplayShell grid{
-  padding-left: 6px;
-  padding-right: 1px;
-  padding-top: 6px;
+GimpDisplayShell grid {
+	padding-left: 6px;
+	padding-right: 1px;
+	padding-top: 6px;
 }
 
-GimpDisplayShell>grid>button{
-  padding-left: 0px;
+GimpDisplayShell>grid>button {
+	padding-left: 0px;
 }
 
 GimpDisplayShell grid > button {
-  min-height: 0;
-  min-width: 0;
-  padding: 0 0 0 0;
-  margin: 2px;
+	min-height: 0;
+	min-width: 0;
+	padding: 0 0 0 0;
+	margin: 2px;
 }
 
-GimpDisplayShell{
-  border-top: 1px solid rgb(220,220,223);
+GimpDisplayShell {
+	border-top: 1px solid rgb(220,220,223);
 }
 
-/*GimpDisplayShell>grid{
-  margin-right: -5px;
+/*GimpDisplayShell>grid {
+	margin-right: -5px;
 }*/
 
-GimpDisplayShell statusbar{
-  padding-bottom: 12px;
-  padding-top: 5px;
+GimpDisplayShell statusbar {
+	padding-bottom: 12px;
+	padding-top: 5px;
 }
-GimpDisplayShell statusbar>box>combobox{
-  margin-right: 6px;
+GimpDisplayShell statusbar>box>combobox {
+	margin-right: 6px;
 }
-GimpDisplayShell statusbar>box>label{
-  margin-left: 2px;
+GimpDisplayShell statusbar>box>label {
+	margin-left: 2px;
 }
-GimpDisplayShell statusbar>box>combobox>box>button{
-  min-height: 0px;
+GimpDisplayShell statusbar>box>combobox>box>button {
+	min-height: 0px;
 }
-GimpDisplayShell statusbar>box>combobox>box>entry{
-  min-height: 0px;
+GimpDisplayShell statusbar>box>combobox>box>entry {
+	min-height: 0px;
 }
-GimpDisplayShell statusbar>box>button{
-  min-height: 0px;
+GimpDisplayShell statusbar>box>button {
+	min-height: 0px;
 }
 
-GimpRuler{
-  color: #828282;
+GimpRuler {
+	color: #828282;
 }

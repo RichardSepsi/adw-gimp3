@@ -1,43 +1,43 @@
 notebook > stack:not(:only-child) {
-  background-color: rgb(34, 34, 38);
+	background-color: rgb(34, 34, 38);
 }
 notebook > stack {
-  background-color: rgb(34, 34, 38);
+	background-color: rgb(34, 34, 38);
 }
 notebook > header {
-  border: 0;
+	border: 0;
 }
 notebook > header.top tabs, notebook > header.bottom tabs {
-  padding-left: 0px;
-  padding-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 notebook > header > tabs > arrow,
 button {
-  outline: 0 solid transparent;
-  outline-offset: -2px;
+	outline: 0 solid transparent;
+	outline-offset: -2px;
 }
 notebook > header tab.reorderable-page {
     margin-bottom: 0;
-    margin-right: 6px;
+    margin-right: 7px;
     margin-left: 0;
     margin-top: 0;
 }
 notebook > header tab.reorderable-page {
-  outline: 0 solid transparent;
-  outline-offset: -2px;
+	outline: 0 solid transparent;
+	outline-offset: -2px;
 }
 /*notebook > header.top tab {
-  padding-bottom: 2px;
+	padding-bottom: 2px;
 }*/
 notebook > header tab {
-  padding: 2px 4px;
+	padding: 2px 4px;
 }
 treeview.view header button {
-  padding: 0px 6px;
+	padding: 0px 6px;
 }
 window>box>box>paned>paned>notebook>header {
-  padding: 6px;
+	padding: 6px;
 }
 window>box>box>paned>paned>notebook>header>tabs>tab {
-  padding: 6px 8px;
+	padding: 6px 8px;
 }

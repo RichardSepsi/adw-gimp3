@@ -1,13 +1,13 @@
 
 
-GimpDock{
+GimpDock {
     margin: 0px 0px;
 }
-GimpDock stack>widget>box>box>box>combobox>box>button>box{
+GimpDock stack>widget>box>box>box>combobox>box>button>box {
     padding: 0 4px;
 }
 
-GimpDock stack>widget>box{
+GimpDock stack>widget>box {
     margin: 0 6px;
 }
 
@@ -22,7 +22,7 @@ GimpDock box>box>paned>notebook {
     margin-bottom: 6px;
 }
 GimpDock box>box>paned>notebook>header {
-    padding: 6px 7px 0px 7px;
+    padding: 6px 6px 0px 6px;
     margin-bottom: -2px;
     outline: 0;
 }
@@ -34,7 +34,7 @@ GimpDock box>box>paned>notebook>header>tabs {
     margin-bottom: 0px;
 }
 GimpDock box>box>paned>notebook>header>tabs>tab {
-    margin-right: 6px;
+    margin-right: 7px;
 }
 
 GimpDock box>box>paned>notebook>stack {
@@ -101,15 +101,15 @@ GimpDock box>box>paned>notebook>stack>widget>box>box>box {
     margin-top: 3px;
     margin-bottom: 3px;
 }
-GimpDock box>box>paned>notebook>stack>widget>box>box>box{
+GimpDock box>box>paned>notebook>stack>widget>box>box>box {
     margin-bottom: 3px;
     min-height: 40px;
     margin-left: -6px;
 }
-GimpDock box>box>paned>notebook>stack>widget>box>box>box>button{
+GimpDock box>box>paned>notebook>stack>widget>box>box>box>button {
     margin-left: 6px;
 }
-GimpDock box>box>paned>notebook>stack>widget>box>box>box>combobox>box{
+GimpDock box>box>paned>notebook>stack>widget>box>box>box>combobox>box {
     margin-left: 6px;
 }
 
@@ -119,7 +119,7 @@ GimpDock box>box>paned>paned>notebook {
     margin-bottom: 6px;
 }
 GimpDock box>box>paned>paned>notebook>header {
-    padding: 6px 7px 0px 7px;
+    padding: 6px 6px 0px 6px;
     margin-bottom: -2px;
     outline: 0;
 }
@@ -131,7 +131,7 @@ GimpDock box>box>paned>paned>notebook>header>tabs {
     margin-bottom: 0px;
 }
 GimpDock box>box>paned>paned>notebook>header>tabs>tab {
-    margin-right: 6px;
+    margin-right: 7px;
 }
 
 GimpDock box>box>paned>paned>notebook>stack {
@@ -220,15 +220,15 @@ GimpDock box>box>paned>paned>notebook>stack>widget>box>box>box {
     margin-top: 3px;
     margin-bottom: 3px;
 }
-GimpDock box>box>paned>paned>notebook>stack>widget>box>box>box{
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>box {
     margin-bottom: 3px;
     min-height: 40px;
     margin-left: -6px;
 }
-GimpDock box>box>paned>paned>notebook>stack>widget>box>box>box>button{
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>box>button {
     margin-left: 6px;
 }
-GimpDock box>box>paned>paned>notebook>stack>widget>box>box>box>combobox>box{
+GimpDock box>box>paned>paned>notebook>stack>widget>box>box>box>combobox>box {
     margin-left: 6px;
 }
 
@@ -309,14 +309,14 @@ scrolledwindow.frame treeview {
     transition: all 300ms ease;
 }
 
-GimpDock scrolledwindow{
-  background: rgba(234,235,236,255);
+GimpDock scrolledwindow {
+    background: rgba(234,235,236,255);
 }
 GimpPrefsBox>scrolledwindow {
-  background: rgba(234,235,236,255);
+    background: rgba(234,235,236,255);
 }
 GimpPrefsBox>box>stack>box>scrolledwindow>viewport scrolledwindow {
-  background: rgba(234,235,236,255);
+    background: rgba(234,235,236,255);
 }
 
 scrolledwindow treeview,
@@ -327,8 +327,7 @@ scrolledwindow treeview header button {
 
 iconview:hover,
 scrolledwindow.frame treeview:hover,
-scrolledwindow.frame treeview:selected:hover
-{
+scrolledwindow.frame treeview:selected:hover {
     background-color: mix(#323233, #fafafb,0.75);
 }
 scrolledwindow.frame treeview:selected,

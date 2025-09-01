@@ -56,7 +56,7 @@ ColorselWheel widget {
 	outline: none
 }
 
-GimpColorSelection{
+GimpColorSelection {
   margin-left: -6px;
 }
 
@@ -81,20 +81,20 @@ GimpColorNotebook tabs tab {
 	margin-left: 6px;
 }
 
-ColorselCmyk{
-  margin: 0 6px;
+ColorselCmyk {
+	margin: 0 6px;
 }
-GimpColorSelect>grid>label{
-  margin-top: 10px;
+GimpColorSelect>grid>label {
+	margin-top: 10px;
 }
-ColorselWater>label{
-  margin-top: 10px;
+ColorselWater>label {
+	margin-top: 10px;
 }
-ColorselWheel>label{
-  margin-top: 10px;
+ColorselWheel>label {
+	margin-top: 10px;
 }
-GimpColorSelectorPalette>label{
-  margin-top: 6px;
+GimpColorSelectorPalette>label {
+	margin-top: 6px;
 }
 GimpColorHistory>button {
 	margin-left: 3px;

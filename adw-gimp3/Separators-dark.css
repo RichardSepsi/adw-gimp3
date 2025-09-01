@@ -6,7 +6,7 @@
 	border-bottom: 1px solid  rgb(56, 58, 58);
 } */
 
-separator{
+separator {
   box-shadow: none;
 	min-width: 1px;
 	min-height: 1px;
@@ -47,9 +47,9 @@ notebook+separator.wide {
 	padding: 0 3px;
 }
 
-GimpDock notebook+separator.wide{
-  box-shadow: none;
-  padding: 0;
+GimpDock notebook+separator.wide {
+	box-shadow: none;
+	padding: 0;
 	min-width: 1px;
 	min-height: 1px;
 	background: none;
