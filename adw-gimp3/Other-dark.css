@@ -309,6 +309,60 @@ dialog>box>grid>combobox>box>button {
 	margin-bottom: 4px;
 }
 
+dialog>box>box>scrolledwindow {
+	background: rgba(47,47,50,255);
+}
+dialog>box>box>scrolledwindow>viewport>list>row {
+	margin-bottom: 6px;
+}
+dialog>box>box>scrolledwindow>viewport>list {
+	margin-bottom: -6px;
+}
+
+dialog>box>box>notebook>header>tabs>tab {
+	padding: 8px 10px;
+}
+dialog>box>box>notebook>stack>box>scrolledwindow>viewport>box>grid>scrolledwindow {
+	border-radius: 12px;
+	margin-bottom: 4px;
+}
+dialog>box>box>notebook>stack>box>scrolledwindow>viewport>box>grid>scrolledwindow>textview {
+	border-radius: 12px;
+	padding: 10px 4px;
+}
+dialog>box>box>notebook>stack>box>scrolledwindow>viewport>box>grid>scrolledwindow>textview>text {
+	border-radius: 12px;
+}
+dialog>box>box>notebook>stack>box>scrolledwindow>viewport>box>grid>entry {
+	margin-bottom: 4px;
+}
+dialog>box>box>notebook>stack>box>scrolledwindow>viewport>box>grid>label {
+	margin-bottom: 4px;
+}
+dialog>box>box>notebook>stack>box>scrolledwindow>viewport>box>grid>combobox {
+	margin-bottom: 4px;
+}
+dialog>box>box>notebook>stack>box>scrolledwindow>viewport>box>grid>box>entry {
+	margin-bottom: 4px;
+}
+dialog>box>box>notebook>stack>box>scrolledwindow>viewport>box>grid>box>combobox {
+	margin-bottom: 4px;
+}
+dialog>box>box>notebook>stack>box>scrolledwindow>viewport>box>grid>box>button {
+	margin-bottom: 3px;
+}
+
+dialog>box>box>frame>box>grid {
+	margin-bottom: -5px;
+}
+dialog>box>box>frame>box>grid>spinbutton {
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+dialog>box>box>frame>box>grid>combobox {
+	margin-bottom: 5px;
+}
+
 dialog>box>box>box>grid>grid {
 	margin-bottom: -6px;
 }
@@ -436,3 +490,33 @@ dialog>box>notebook>stack>box>box>button {
 	margin: 0 10px;
 }
 
+printdialog>box>box>notebook>header>tabs>tab {
+	padding: 8px 10px;
+}
+printdialog>box>box>notebook>stack>box>box>scrolledwindow {
+	background: rgba(47,47,50,255);
+}
+printdialog>box>box>notebook>stack>box>box>frame>box>box>grid {
+	margin-bottom: -4px;
+}
+printdialog>box>box>notebook>stack>box>box>frame>box>box>grid>label {
+	margin-bottom: 2px;
+	margin-right: 8px;
+}
+printdialog>box>box>notebook>stack>box>box>frame>box>box>grid>spinbutton {
+	margin-bottom: 5px;
+}
+printdialog>box>box>notebook>stack>box>box>frame>box>box>grid>combobox {
+	margin-bottom: 5px;
+	margin-left: 6px;
+}
+printdialog>box>box>notebook>stack>box>box>frame>box>grid {
+	margin-bottom: -4px;
+}
+printdialog>box>box>notebook>stack>box>box>frame>box>grid>spinbutton {
+	margin-bottom: 5px;
+}
+
+window>box>entry {
+	margin: 8px;
+}

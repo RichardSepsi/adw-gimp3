@@ -38,7 +38,7 @@ menubar {
 }
 
 window>headerbar {
-	min-height: 12px;
+	min-height: 36px;
 }
 
 menubar>menuitem {
