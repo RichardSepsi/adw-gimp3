@@ -520,3 +520,14 @@ printdialog>box>box>notebook>stack>box>box>frame>box>grid>spinbutton {
 window>box>entry {
 	margin: 8px;
 }
+
+.view, iconview,
+.view text,
+iconview text {
+  color: @view_fg_color;
+  background-color: transparent;
+  caret-color: shade(@view_fg_color,0.97);
+}
+textview.view{
+	background-color: @view_bg_color;
+}
