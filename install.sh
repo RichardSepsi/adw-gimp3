@@ -6,7 +6,7 @@ APP="adw-gimp3"
 REPO="https://github.com/RichardSepsi/adw-gimp3"
 CLONE_DIR="$PWD/$APP"
 
-echo "Installing ${APP}..."
+echo -e "Installing \033[1m${APP}\033[0m..."
 sleep 0.5
 
 git clone "$REPO" "$CLONE_DIR"
