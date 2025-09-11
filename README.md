@@ -1,6 +1,6 @@
 # adw-gimp3: an Adwaita Theme for GIMP 3
 
-A complementary theme to `adw-gtk3` for perfect GIMP styling. I made this fork to attempt to create a more polished version of the original. Theme is based on dp0sk's [original adw-gimp3 script](https://github.com/dp0sk/adw-gimp3).
+A complementary theme to `adw-gtk3` for perfect GIMP styling. I made this fork to attempt to create a more polished version of the original. Theme is based on dp0sk's adwaita gimp theme https://github.com/dp0sk/adw-gimp3.
 
 Tested with GIMP 3.0.4 on Fedora Linux 42 with Gnome 48. Theme currently doesn't work properly on Windows ([Current state](https://raw.githubusercontent.com/RichardSepsi/adw-gimp3/refs/heads/main/previews/Windows.png)). 
 
